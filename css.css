@@ -1,0 +1,33 @@
+body {
+	
+}
+
+#center {
+	background:#fff;
+	height:310px;
+	width:310px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.img {
+	width:100px;
+	height:100px;
+}
+#title {
+	top:0;
+	width:100%;
+	height:40px;
+	font-family: 'Libre Barcode 39 Extended Text', cursive;
+	font-size:70px;
+}
+
+#dev {
+	top:0;
+	width:100%;
+	height:40px;
+	font-family: 'Inconsolata', monospace;
+	font-size:20px;
+}
