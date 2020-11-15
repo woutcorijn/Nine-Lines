@@ -1,6 +1,19 @@
 body {
-	
+
 }
+
+a:link {
+color:black;
+}
+
+a:active {
+color:black;
+}
+
+ a:visited  {
+   color:black;
+ }
+
 
 #center {
 	background:#fff;
@@ -24,10 +37,11 @@ body {
 	font-size:70px;
 }
 
-#dev {
-	top:0;
-	width:100%;
-	height:40px;
+
+#link {
+	text-decoration: none;
 	font-family: 'Inconsolata', monospace;
 	font-size:20px;
+	position: absolute;
+	bottom: 20px;
 }
